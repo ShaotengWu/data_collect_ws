@@ -1,0 +1,7 @@
+devel/
+logs/
+build/
+src/kistler_can_decode/lib/libCanCmd.so
+src/rtk_and_chasis_can_decode/dll/libCanCmd.so
+.catkin_tools/
+.catkin_workspace

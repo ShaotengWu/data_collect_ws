@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- ************** CAN *************** -->
+	<node pkg="rtk_and_chasis_can_decode" type="rtk_and_chasis_can_decode" name="rtk_and_chasis_can_decode" respawn="true">
+	</node>
+	<!-- ************** PID Controller *************** -->
+</launch>

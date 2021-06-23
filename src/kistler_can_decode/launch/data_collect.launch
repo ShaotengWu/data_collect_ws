@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="kistler_can_decode" type="kistler_can_decode" name="kistler_can_decode" output="screen" launch-prefix ="xterm -e"  />
+    <node pkg="rtk_and_chasis_can_decode" type="rtk_and_chasis_can_decode" name="rtk_and_chasis_can_decode" output="screen" launch-prefix ="xterm -e"/>
+
+</launch>

@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros/melodic/include/**",
+        "/opt/ros/melodic/share/julius/include/**",
+        "/usr/include/**",
+        "/home/wushaoteng/project/model_identification_ws/devel/include/**",
+        "/home/wushaoteng/project/model_identification_ws/src/kistler_can_decode/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
