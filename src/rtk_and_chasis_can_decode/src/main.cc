@@ -56,7 +56,7 @@ int main(int argc, char **argv)
 
     // 打开CAN口
     CAN_InitConfig CanConfig;
-    CanHandler CanIO(CAN_Device, 0, 3, CanConfig);
+    CanHandler CanIO(CAN_Device, 1, 3, CanConfig);
     DWORD opened;
     opened = CanIO.OpenDevice();
 

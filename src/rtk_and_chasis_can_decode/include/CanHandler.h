@@ -3,6 +3,7 @@
 
 #include <thread>
 #include <mutex>
+#include <iostream>
 #include "ICANCmd.h"
 #include <glog/logging.h>
 
@@ -81,6 +82,7 @@ namespace CanProcess
         DWORD OpenDevice()
         {
             DeviceHandle = CAN_DeviceOpen(DeviceType, DeviceIdx, 0);
+            std::cout<<"device usb id:"<<DeviceIdx<<std::endl;
             if (!DeviceHandle)
                 LOG(ERROR) << "Open Device Error\n";
             else
